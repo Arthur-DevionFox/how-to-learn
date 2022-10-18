@@ -18,6 +18,8 @@ a {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
@@ -46,8 +48,6 @@ a {
 .header__title {
   width: 730px;
   margin-left: 64px;
-  margin-top: 260px;
-  display: flex;
   line-height: 96px;
   font-size: 102px;  
   font-weight: 600;
