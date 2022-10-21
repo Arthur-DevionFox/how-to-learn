@@ -24,13 +24,6 @@ a {
 }
 
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .logo {
   width: 228px;
@@ -204,7 +197,6 @@ a {
 
 
 .feynman {
-  position: absolute;
   height: 890px;
   width: 100%;
   margin-top: 100px;
@@ -238,7 +230,7 @@ a {
   width: 120px;
   height: 70px;
   right: 48px;
-  top: 50%;
+  top: 400%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -250,5 +242,61 @@ a {
 }
 
 .kaufman {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #1f1f1f;
+}
 
+.section-title__theme_dark {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-subtitle__theme_dark {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.table__theme_dark {
+  width: 1100px;
+  margin: 0 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell_theme_dark { 
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  border: 4px double red;
+}
+
+.table__heading_theme_dark {
+
+}
+
+.table__text_theme_dark {
+
+}
+
+.kaufman__triange {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
