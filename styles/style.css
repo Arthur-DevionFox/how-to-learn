@@ -47,7 +47,7 @@ p {
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
-  font-size: 102px;  
+  font-size: 102px;
   font-weight: 600;
   z-index: 2;
 }
@@ -66,7 +66,7 @@ p {
 .header__link {
   position: absolute;
   left: 64px;
-  top: 50.4px; 
+  top: 50.4px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -151,7 +151,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
 }
 
 .section-title {
@@ -247,7 +246,7 @@ p {
   flex-direction: column;
   align-items: center;
   background-color: #1f1f1f;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .section-title__theme_dark {
