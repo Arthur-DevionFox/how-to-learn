@@ -1,13 +1,8 @@
-
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -18,9 +13,7 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
 }
-
 
 .logo {
   width: 228px;
@@ -38,6 +31,8 @@
 .header__title {
   max-width: 730px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -72,7 +67,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .header__square-pic {
@@ -82,7 +77,6 @@
   position: absolute;
   top: 64px;
   right: 0px;
-  
 }
 
 .description {
@@ -123,7 +117,7 @@
   margin: 0;
   padding: 0;
 }
-.two-columns__paragraph:nth-child(2){
+.two-columns__paragraph:nth-child(2) {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -150,9 +144,9 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin-top: 100px;
   z-index: 1;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .section-subtitle {
@@ -199,7 +193,6 @@
   padding: 0;
 }
 
-
 .feynman {
   position: relative;
   min-height: 890px;
@@ -213,25 +206,28 @@
   background-color: #f2f2f2;
 }
 
-
 .feynman__title {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-bottom: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
   margin-top: 100px;
+  width: 648px;
 }
 
 .feynman__subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  z-index: 1;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin-top: 50px;
-}
-
-.section-subtitle__feynman_subtitle {
   margin-top: 70px;
-  z-index: 2;
 }
 
 .feynman__link {
@@ -245,7 +241,7 @@
   color: #2f80ed;
 }
 
-.kaufman  {
+.kaufman {
   position: relative;
   width: 100%;
   display: flex;
@@ -268,7 +264,7 @@
   margin-bottom: 90px;
 }
 
-.table__cell_theme_dark { 
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   z-index: 1;
