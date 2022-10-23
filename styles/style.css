@@ -117,6 +117,7 @@
   margin: 0;
   padding: 0;
 }
+
 .two-columns__paragraph:nth-child(2) {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -215,7 +216,6 @@
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  margin-top: 100px;
   width: 648px;
 }
 
@@ -289,6 +289,7 @@
   display: flex;
   color: white;
 }
+
 .footer__columns {
   width: 90%;
   margin-top: 60px;
@@ -298,6 +299,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
@@ -308,6 +310,7 @@
 .logo_place_footer {
   position: static;
 }
+
 .footer__author {
   line-height: 25px;
   font-size: 18px;
