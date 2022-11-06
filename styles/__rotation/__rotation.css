@@ -1,0 +1,40 @@
+@keyframes rotation{
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  animation: rotation 20s linear 0s infinite normal forwards;
+  -webkit-animation: rotation 20s linear 0s infinite normal forwards;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 100%;
+  z-index: 0;
+  animation: rotation 20s linear 0s infinite normal forwards;
+  -webkit-animation: rotation 20s linear 0s infinite normal forwards;
+}
