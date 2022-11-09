@@ -1,4 +1,4 @@
-@import url(__rotation/__rotation.css);
+@import url(../styles/__rotation/__rotation.css);
 @import url(/styles/__blocks/_header/styles__blocks_header.css);
 @import url(/styles/__blocks/__main/_description/styles__blocks_description.css);
 @import url(/styles/__blocks/__main/_techniques/styles__blocks_techniques.css);
