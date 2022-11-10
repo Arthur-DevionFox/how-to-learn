@@ -68,8 +68,17 @@
     align-items: center;
   }
   
+  .footer__column-link:hover {
+    font-size: 20px;
+  }
+
   .footer__social-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+  }
+
+  .footer__social-icon:hover {
+    width: 20px;
+    height: 16px;
   }

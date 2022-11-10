@@ -54,6 +54,10 @@
     color: #2f80ed;
   }
   
+  .header__link:hover {
+    font-size: 20px;
+  }
+
   .header__main-illustration {
     position: absolute;
     right: 0;
